@@ -40,6 +40,10 @@
 		7A71B7282AC9654E000C317B /* CustomCorner2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7222AC9654E000C317B /* CustomCorner2.swift */; };
 		7A71B7292AC9654E000C317B /* PlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7232AC9654E000C317B /* PlanetDetailView.swift */; };
 		7A71B72B2AC965A3000C317B /* Youtube222.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B72A2AC965A3000C317B /* Youtube222.swift */; };
+		7A71B7302AC965F8000C317B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B72C2AC965F8000C317B /* HomeView.swift */; };
+		7A71B7312AC965F8000C317B /* NewItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B72D2AC965F8000C317B /* NewItems.swift */; };
+		7A71B7322AC965F8000C317B /* PodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B72E2AC965F8000C317B /* PodList.swift */; };
+		7A71B7332AC965F8000C317B /* AlbumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B72F2AC965F8000C317B /* AlbumList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +81,10 @@
 		7A71B7222AC9654E000C317B /* CustomCorner2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCorner2.swift; sourceTree = "<group>"; };
 		7A71B7232AC9654E000C317B /* PlanetDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetDetailView.swift; sourceTree = "<group>"; };
 		7A71B72A2AC965A3000C317B /* Youtube222.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Youtube222.swift; sourceTree = "<group>"; };
+		7A71B72C2AC965F8000C317B /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7A71B72D2AC965F8000C317B /* NewItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItems.swift; sourceTree = "<group>"; };
+		7A71B72E2AC965F8000C317B /* PodList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodList.swift; sourceTree = "<group>"; };
+		7A71B72F2AC965F8000C317B /* AlbumList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 		7A71B6E22AC9631E000C317B /* Slay */ = {
 			isa = PBXGroup;
 			children = (
+				7A71B72F2AC965F8000C317B /* AlbumList.swift */,
+				7A71B72C2AC965F8000C317B /* HomeView.swift */,
+				7A71B72D2AC965F8000C317B /* NewItems.swift */,
+				7A71B72E2AC965F8000C317B /* PodList.swift */,
 				7A71B72A2AC965A3000C317B /* Youtube222.swift */,
 				7A71B71E2AC9654D000C317B /* CustomCorner.swift */,
 				7A71B7222AC9654E000C317B /* CustomCorner2.swift */,
@@ -225,6 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A71B7052AC96457000C317B /* ArtistList.swift in Sources */,
+				7A71B7322AC965F8000C317B /* PodList.swift in Sources */,
+				7A71B7332AC965F8000C317B /* AlbumList.swift in Sources */,
 				7A71B7242AC9654E000C317B /* CustomCorner.swift in Sources */,
 				7A71B7072AC96457000C317B /* ProfileView.swift in Sources */,
 				7A71B7292AC9654E000C317B /* PlanetDetailView.swift in Sources */,
@@ -232,11 +246,13 @@
 				7A71B70E2AC9649F000C317B /* LookpageHome.swift in Sources */,
 				7A71B7042AC96457000C317B /* Person.swift in Sources */,
 				7A71B6ED2AC9631F000C317B /* Persistence.swift in Sources */,
+				7A71B7312AC965F8000C317B /* NewItems.swift in Sources */,
 				7A71B72B2AC965A3000C317B /* Youtube222.swift in Sources */,
 				7A71B70F2AC9649F000C317B /* OffsetModifier.swift in Sources */,
 				7A71B6FD2AC96346000C317B /* BagView.swift in Sources */,
 				7A71B6FC2AC96346000C317B /* DetailView.swift in Sources */,
 				7A71B7182AC96508000C317B /* chanelookpage.new.swift in Sources */,
+				7A71B7302AC965F8000C317B /* HomeView.swift in Sources */,
 				7A71B6E62AC9631E000C317B /* ContentView.swift in Sources */,
 				7A71B7262AC9654E000C317B /* PlanetTapButton.swift in Sources */,
 				7A71B71C2AC96508000C317B /* AlbumData.swift in Sources */,
