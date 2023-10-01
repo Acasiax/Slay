@@ -4,7 +4,7 @@
 //
 //  Created by 이윤지 on 2023/06/21.
 //
-
+//hj
 import SwiftUI
 
 struct AlbumList: View {
