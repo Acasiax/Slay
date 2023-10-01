@@ -33,6 +33,12 @@
 		7A71B71B2AC96508000C317B /* PlanetModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7152AC96508000C317B /* PlanetModelData.swift */; };
 		7A71B71C2AC96508000C317B /* AlbumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7162AC96508000C317B /* AlbumData.swift */; };
 		7A71B71D2AC96508000C317B /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7172AC96508000C317B /* Brand.swift */; };
+		7A71B7242AC9654E000C317B /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B71E2AC9654D000C317B /* CustomCorner.swift */; };
+		7A71B7252AC9654E000C317B /* PlanetHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B71F2AC9654E000C317B /* PlanetHome.swift */; };
+		7A71B7262AC9654E000C317B /* PlanetTapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7202AC9654E000C317B /* PlanetTapButton.swift */; };
+		7A71B7272AC9654E000C317B /* PlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7212AC9654E000C317B /* PlanetView.swift */; };
+		7A71B7282AC9654E000C317B /* CustomCorner2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7222AC9654E000C317B /* CustomCorner2.swift */; };
+		7A71B7292AC9654E000C317B /* PlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7232AC9654E000C317B /* PlanetDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +69,12 @@
 		7A71B7152AC96508000C317B /* PlanetModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetModelData.swift; sourceTree = "<group>"; };
 		7A71B7162AC96508000C317B /* AlbumData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumData.swift; sourceTree = "<group>"; };
 		7A71B7172AC96508000C317B /* Brand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		7A71B71E2AC9654D000C317B /* CustomCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		7A71B71F2AC9654E000C317B /* PlanetHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetHome.swift; sourceTree = "<group>"; };
+		7A71B7202AC9654E000C317B /* PlanetTapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetTapButton.swift; sourceTree = "<group>"; };
+		7A71B7212AC9654E000C317B /* PlanetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetView.swift; sourceTree = "<group>"; };
+		7A71B7222AC9654E000C317B /* CustomCorner2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCorner2.swift; sourceTree = "<group>"; };
+		7A71B7232AC9654E000C317B /* PlanetDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,12 @@
 		7A71B6E22AC9631E000C317B /* Slay */ = {
 			isa = PBXGroup;
 			children = (
+				7A71B71E2AC9654D000C317B /* CustomCorner.swift */,
+				7A71B7222AC9654E000C317B /* CustomCorner2.swift */,
+				7A71B7232AC9654E000C317B /* PlanetDetailView.swift */,
+				7A71B71F2AC9654E000C317B /* PlanetHome.swift */,
+				7A71B7202AC9654E000C317B /* PlanetTapButton.swift */,
+				7A71B7212AC9654E000C317B /* PlanetView.swift */,
 				7A71B7162AC96508000C317B /* AlbumData.swift */,
 				7A71B7172AC96508000C317B /* Brand.swift */,
 				7A71B7132AC96508000C317B /* ChanelLookPage.swift */,
@@ -204,7 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A71B7052AC96457000C317B /* ArtistList.swift in Sources */,
+				7A71B7242AC9654E000C317B /* CustomCorner.swift in Sources */,
 				7A71B7072AC96457000C317B /* ProfileView.swift in Sources */,
+				7A71B7292AC9654E000C317B /* PlanetDetailView.swift in Sources */,
 				7A71B7102AC9649F000C317B /* SnapCarousel.swift in Sources */,
 				7A71B70E2AC9649F000C317B /* LookpageHome.swift in Sources */,
 				7A71B7042AC96457000C317B /* Person.swift in Sources */,
@@ -214,11 +234,14 @@
 				7A71B6FC2AC96346000C317B /* DetailView.swift in Sources */,
 				7A71B7182AC96508000C317B /* chanelookpage.new.swift in Sources */,
 				7A71B6E62AC9631E000C317B /* ContentView.swift in Sources */,
+				7A71B7262AC9654E000C317B /* PlanetTapButton.swift in Sources */,
 				7A71B71C2AC96508000C317B /* AlbumData.swift in Sources */,
 				7A71B71B2AC96508000C317B /* PlanetModelData.swift in Sources */,
 				7A71B71D2AC96508000C317B /* Brand.swift in Sources */,
 				7A71B6FB2AC96346000C317B /* ColorButton.swift in Sources */,
 				7A71B6FE2AC96346000C317B /* TabButton.swift in Sources */,
+				7A71B7272AC9654E000C317B /* PlanetView.swift in Sources */,
+				7A71B7282AC9654E000C317B /* CustomCorner2.swift in Sources */,
 				7A71B7062AC96457000C317B /* YouTubeView.swift in Sources */,
 				7A71B7112AC9649F000C317B /* VideoDetailView.swift in Sources */,
 				7A71B6FF2AC96346000C317B /* HomeProductsHero.swift in Sources */,
@@ -226,6 +249,7 @@
 				7A71B6F02AC9631F000C317B /* Slay.xcdatamodeld in Sources */,
 				7A71B6E42AC9631E000C317B /* SlayApp.swift in Sources */,
 				7A71B70D2AC9649F000C317B /* LookPageDetailView.swift in Sources */,
+				7A71B7252AC9654E000C317B /* PlanetHome.swift in Sources */,
 				7A71B71A2AC96508000C317B /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
