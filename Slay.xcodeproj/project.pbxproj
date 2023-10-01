@@ -44,6 +44,9 @@
 		7A71B7312AC965F8000C317B /* NewItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B72D2AC965F8000C317B /* NewItems.swift */; };
 		7A71B7322AC965F8000C317B /* PodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B72E2AC965F8000C317B /* PodList.swift */; };
 		7A71B7332AC965F8000C317B /* AlbumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B72F2AC965F8000C317B /* AlbumList.swift */; };
+		7A71B7372AC96687000C317B /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7342AC96686000C317B /* Tab.swift */; };
+		7A71B7382AC96687000C317B /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7352AC96687000C317B /* AccountView.swift */; };
+		7A71B7392AC96687000C317B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7362AC96687000C317B /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +88,9 @@
 		7A71B72D2AC965F8000C317B /* NewItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItems.swift; sourceTree = "<group>"; };
 		7A71B72E2AC965F8000C317B /* PodList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodList.swift; sourceTree = "<group>"; };
 		7A71B72F2AC965F8000C317B /* AlbumList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumList.swift; sourceTree = "<group>"; };
+		7A71B7342AC96686000C317B /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		7A71B7352AC96687000C317B /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		7A71B7362AC96687000C317B /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,9 @@
 		7A71B6E22AC9631E000C317B /* Slay */ = {
 			isa = PBXGroup;
 			children = (
+				7A71B7352AC96687000C317B /* AccountView.swift */,
+				7A71B7342AC96686000C317B /* Tab.swift */,
+				7A71B7362AC96687000C317B /* TabBar.swift */,
 				7A71B72F2AC965F8000C317B /* AlbumList.swift */,
 				7A71B72C2AC965F8000C317B /* HomeView.swift */,
 				7A71B72D2AC965F8000C317B /* NewItems.swift */,
@@ -251,10 +260,13 @@
 				7A71B70F2AC9649F000C317B /* OffsetModifier.swift in Sources */,
 				7A71B6FD2AC96346000C317B /* BagView.swift in Sources */,
 				7A71B6FC2AC96346000C317B /* DetailView.swift in Sources */,
+				7A71B7372AC96687000C317B /* Tab.swift in Sources */,
+				7A71B7382AC96687000C317B /* AccountView.swift in Sources */,
 				7A71B7182AC96508000C317B /* chanelookpage.new.swift in Sources */,
 				7A71B7302AC965F8000C317B /* HomeView.swift in Sources */,
 				7A71B6E62AC9631E000C317B /* ContentView.swift in Sources */,
 				7A71B7262AC9654E000C317B /* PlanetTapButton.swift in Sources */,
+				7A71B7392AC96687000C317B /* TabBar.swift in Sources */,
 				7A71B71C2AC96508000C317B /* AlbumData.swift in Sources */,
 				7A71B71B2AC96508000C317B /* PlanetModelData.swift in Sources */,
 				7A71B71D2AC96508000C317B /* Brand.swift in Sources */,
