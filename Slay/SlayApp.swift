@@ -6,15 +6,18 @@
 //
 
 import SwiftUI
-
+//초기화면
 @main
 struct SlayApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBar(selectedYoutube: .constant(nil), selectedBrand: .constant(nil))
+          //  youtuve()
+            // ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            
         }
     }
 }
