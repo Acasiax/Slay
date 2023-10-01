@@ -22,6 +22,11 @@
 		7A71B7052AC96457000C317B /* ArtistList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7012AC96457000C317B /* ArtistList.swift */; };
 		7A71B7062AC96457000C317B /* YouTubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7022AC96457000C317B /* YouTubeView.swift */; };
 		7A71B7072AC96457000C317B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7032AC96457000C317B /* ProfileView.swift */; };
+		7A71B70D2AC9649F000C317B /* LookPageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7082AC9649E000C317B /* LookPageDetailView.swift */; };
+		7A71B70E2AC9649F000C317B /* LookpageHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B7092AC9649E000C317B /* LookpageHome.swift */; };
+		7A71B70F2AC9649F000C317B /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B70A2AC9649F000C317B /* OffsetModifier.swift */; };
+		7A71B7102AC9649F000C317B /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B70B2AC9649F000C317B /* SnapCarousel.swift */; };
+		7A71B7112AC9649F000C317B /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A71B70C2AC9649F000C317B /* VideoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +46,11 @@
 		7A71B7012AC96457000C317B /* ArtistList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistList.swift; sourceTree = "<group>"; };
 		7A71B7022AC96457000C317B /* YouTubeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeView.swift; sourceTree = "<group>"; };
 		7A71B7032AC96457000C317B /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7A71B7082AC9649E000C317B /* LookPageDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookPageDetailView.swift; sourceTree = "<group>"; };
+		7A71B7092AC9649E000C317B /* LookpageHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookpageHome.swift; sourceTree = "<group>"; };
+		7A71B70A2AC9649F000C317B /* OffsetModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
+		7A71B70B2AC9649F000C317B /* SnapCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		7A71B70C2AC9649F000C317B /* VideoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,11 @@
 		7A71B6E22AC9631E000C317B /* Slay */ = {
 			isa = PBXGroup;
 			children = (
+				7A71B7082AC9649E000C317B /* LookPageDetailView.swift */,
+				7A71B7092AC9649E000C317B /* LookpageHome.swift */,
+				7A71B70A2AC9649F000C317B /* OffsetModifier.swift */,
+				7A71B70B2AC9649F000C317B /* SnapCarousel.swift */,
+				7A71B70C2AC9649F000C317B /* VideoDetailView.swift */,
 				7A71B7012AC96457000C317B /* ArtistList.swift */,
 				7A71B7002AC96457000C317B /* Person.swift */,
 				7A71B7032AC96457000C317B /* ProfileView.swift */,
@@ -172,17 +187,22 @@
 			files = (
 				7A71B7052AC96457000C317B /* ArtistList.swift in Sources */,
 				7A71B7072AC96457000C317B /* ProfileView.swift in Sources */,
+				7A71B7102AC9649F000C317B /* SnapCarousel.swift in Sources */,
+				7A71B70E2AC9649F000C317B /* LookpageHome.swift in Sources */,
 				7A71B7042AC96457000C317B /* Person.swift in Sources */,
 				7A71B6ED2AC9631F000C317B /* Persistence.swift in Sources */,
+				7A71B70F2AC9649F000C317B /* OffsetModifier.swift in Sources */,
 				7A71B6FD2AC96346000C317B /* BagView.swift in Sources */,
 				7A71B6FC2AC96346000C317B /* DetailView.swift in Sources */,
 				7A71B6E62AC9631E000C317B /* ContentView.swift in Sources */,
 				7A71B6FB2AC96346000C317B /* ColorButton.swift in Sources */,
 				7A71B6FE2AC96346000C317B /* TabButton.swift in Sources */,
 				7A71B7062AC96457000C317B /* YouTubeView.swift in Sources */,
+				7A71B7112AC9649F000C317B /* VideoDetailView.swift in Sources */,
 				7A71B6FF2AC96346000C317B /* HomeProductsHero.swift in Sources */,
 				7A71B6F02AC9631F000C317B /* Slay.xcdatamodeld in Sources */,
 				7A71B6E42AC9631E000C317B /* SlayApp.swift in Sources */,
+				7A71B70D2AC9649F000C317B /* LookPageDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
