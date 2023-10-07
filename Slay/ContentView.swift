@@ -3,7 +3,7 @@
 //  Slay
 //
 //  Created by 이윤지 on 10/1/23.
-//
+//ㅇㅇ
 
 import SwiftUI
 import CoreData
