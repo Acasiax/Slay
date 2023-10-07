@@ -123,40 +123,13 @@
 		7A71B6E22AC9631E000C317B /* Slay */ = {
 			isa = PBXGroup;
 			children = (
-				7A71B7352AC96687000C317B /* AccountView.swift */,
-				7A71B7342AC96686000C317B /* Tab.swift */,
-				7A71B7362AC96687000C317B /* TabBar.swift */,
-				7A71B72F2AC965F8000C317B /* AlbumList.swift */,
-				7A71B72C2AC965F8000C317B /* HomeView.swift */,
-				7A71B72D2AC965F8000C317B /* NewItems.swift */,
-				7A71B72E2AC965F8000C317B /* PodList.swift */,
-				7A71B72A2AC965A3000C317B /* Youtube222.swift */,
-				7A71B71E2AC9654D000C317B /* CustomCorner.swift */,
-				7A71B7222AC9654E000C317B /* CustomCorner2.swift */,
-				7A71B7232AC9654E000C317B /* PlanetDetailView.swift */,
-				7A71B71F2AC9654E000C317B /* PlanetHome.swift */,
-				7A71B7202AC9654E000C317B /* PlanetTapButton.swift */,
-				7A71B7212AC9654E000C317B /* PlanetView.swift */,
-				7A71B7162AC96508000C317B /* AlbumData.swift */,
-				7A71B7172AC96508000C317B /* Brand.swift */,
-				7A71B7132AC96508000C317B /* ChanelLookPage.swift */,
-				7A71B7122AC96508000C317B /* chanelookpage.new.swift */,
-				7A71B7142AC96508000C317B /* ModelData.swift */,
-				7A71B7152AC96508000C317B /* PlanetModelData.swift */,
-				7A71B7082AC9649E000C317B /* LookPageDetailView.swift */,
-				7A71B7092AC9649E000C317B /* LookpageHome.swift */,
-				7A71B70A2AC9649F000C317B /* OffsetModifier.swift */,
-				7A71B70B2AC9649F000C317B /* SnapCarousel.swift */,
-				7A71B70C2AC9649F000C317B /* VideoDetailView.swift */,
-				7A71B7012AC96457000C317B /* ArtistList.swift */,
-				7A71B7002AC96457000C317B /* Person.swift */,
-				7A71B7032AC96457000C317B /* ProfileView.swift */,
-				7A71B7022AC96457000C317B /* YouTubeView.swift */,
-				7A71B6F82AC96345000C317B /* BagView.swift */,
-				7A71B6F62AC96345000C317B /* ColorButton.swift */,
-				7A71B6F72AC96345000C317B /* DetailView.swift */,
-				7A71B6FA2AC96346000C317B /* HomeProductsHero.swift */,
-				7A71B6F92AC96345000C317B /* TabButton.swift */,
+				AABCDD622AD0F6C500670572 /* HeroGoods */,
+				AABCDD652AD0F79600670572 /* ART */,
+				AABCDD662AD0F7DC00670572 /* Model */,
+				AABCDD692AD0F8BD00670572 /* HeroPlanet */,
+				AABCDD682AD0F87800670572 /* MusicView */,
+				AABCDD6A2AD0F8FE00670572 /* DesignTapBar */,
+				AABCDD672AD0F83100670572 /* Geometry Effect Group */,
 				7A71B6E32AC9631E000C317B /* SlayApp.swift */,
 				7A71B6E52AC9631E000C317B /* ContentView.swift */,
 				7A71B6E72AC9631F000C317B /* Assets.xcassets */,
@@ -173,6 +146,89 @@
 				7A71B6EA2AC9631F000C317B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AABCDD622AD0F6C500670572 /* HeroGoods */ = {
+			isa = PBXGroup;
+			children = (
+				7A71B6FA2AC96346000C317B /* HomeProductsHero.swift */,
+				7A71B6F72AC96345000C317B /* DetailView.swift */,
+				7A71B6F92AC96345000C317B /* TabButton.swift */,
+				7A71B6F82AC96345000C317B /* BagView.swift */,
+				7A71B6F62AC96345000C317B /* ColorButton.swift */,
+			);
+			path = HeroGoods;
+			sourceTree = "<group>";
+		};
+		AABCDD652AD0F79600670572 /* ART */ = {
+			isa = PBXGroup;
+			children = (
+				7A71B7032AC96457000C317B /* ProfileView.swift */,
+				7A71B7002AC96457000C317B /* Person.swift */,
+				7A71B7022AC96457000C317B /* YouTubeView.swift */,
+				7A71B7012AC96457000C317B /* ArtistList.swift */,
+			);
+			path = ART;
+			sourceTree = "<group>";
+		};
+		AABCDD662AD0F7DC00670572 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A71B7132AC96508000C317B /* ChanelLookPage.swift */,
+				7A71B7122AC96508000C317B /* chanelookpage.new.swift */,
+				7A71B7152AC96508000C317B /* PlanetModelData.swift */,
+				7A71B7142AC96508000C317B /* ModelData.swift */,
+				7A71B7172AC96508000C317B /* Brand.swift */,
+				7A71B7162AC96508000C317B /* AlbumData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AABCDD672AD0F83100670572 /* Geometry Effect Group */ = {
+			isa = PBXGroup;
+			children = (
+				7A71B7092AC9649E000C317B /* LookpageHome.swift */,
+				7A71B7082AC9649E000C317B /* LookPageDetailView.swift */,
+				7A71B70A2AC9649F000C317B /* OffsetModifier.swift */,
+				7A71B70B2AC9649F000C317B /* SnapCarousel.swift */,
+				7A71B70C2AC9649F000C317B /* VideoDetailView.swift */,
+			);
+			path = "Geometry Effect Group";
+			sourceTree = "<group>";
+		};
+		AABCDD682AD0F87800670572 /* MusicView */ = {
+			isa = PBXGroup;
+			children = (
+				7A71B72A2AC965A3000C317B /* Youtube222.swift */,
+				7A71B72D2AC965F8000C317B /* NewItems.swift */,
+				7A71B72F2AC965F8000C317B /* AlbumList.swift */,
+				7A71B72E2AC965F8000C317B /* PodList.swift */,
+				7A71B72C2AC965F8000C317B /* HomeView.swift */,
+			);
+			path = MusicView;
+			sourceTree = "<group>";
+		};
+		AABCDD692AD0F8BD00670572 /* HeroPlanet */ = {
+			isa = PBXGroup;
+			children = (
+				7A71B71E2AC9654D000C317B /* CustomCorner.swift */,
+				7A71B7222AC9654E000C317B /* CustomCorner2.swift */,
+				7A71B7232AC9654E000C317B /* PlanetDetailView.swift */,
+				7A71B71F2AC9654E000C317B /* PlanetHome.swift */,
+				7A71B7202AC9654E000C317B /* PlanetTapButton.swift */,
+				7A71B7212AC9654E000C317B /* PlanetView.swift */,
+			);
+			path = HeroPlanet;
+			sourceTree = "<group>";
+		};
+		AABCDD6A2AD0F8FE00670572 /* DesignTapBar */ = {
+			isa = PBXGroup;
+			children = (
+				7A71B7342AC96686000C317B /* Tab.swift */,
+				7A71B7362AC96687000C317B /* TabBar.swift */,
+				7A71B7352AC96687000C317B /* AccountView.swift */,
+			);
+			path = DesignTapBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
