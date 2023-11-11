@@ -47,7 +47,7 @@ struct PlanetHome: View {
                         HStack(spacing: 12) {
                             Image(systemName: "atom").renderingMode(.original).resizable().frame(width: 30, height: 30) .foregroundColor(.purple.opacity(0.7))
                             
-                            Text("Aurora")
+                            Text("SLAY")
                                 .font(.headline)
                                 .foregroundColor(.white)
                                 .overlay(
@@ -56,7 +56,7 @@ struct PlanetHome: View {
                                         startPoint: .leading,
                                         endPoint: .trailing
                                     )
-                                    .mask(Text("Aurora").font(.headline))
+                                    .mask(Text("SLAY").font(.headline))
                                 )
                             
                             Spacer()

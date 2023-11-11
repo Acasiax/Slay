@@ -247,7 +247,7 @@ struct VideoDetailView: View {
             //히어로 뷰를 숨기기 위해
             .statusBar(hidden: showVideo ? true : false)
             
-            .navigationBarTitle("Aurora", displayMode: .inline)
+            .navigationBarTitle("SLAY", displayMode: .inline)
             // 타이틀 추가
             .navigationBarColor(backgroundColor: .clear, titleColor: .purple)
             

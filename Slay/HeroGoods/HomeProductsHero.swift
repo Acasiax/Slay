@@ -63,7 +63,7 @@ struct HomeProductsHero: View {
       
                     }
                     
-                    Text("Aurora shop")
+                    Text("SLAY shop")
                         .font(.title)
                         .fontWeight(.heavy)
                         .foregroundColor(.white)

@@ -56,7 +56,7 @@ struct PlanetDetailView: View {
                     Spacer()
                     Button(action: {}) {
                         
-                        Image(systemName: "cart")
+                        Image(systemName: "heart")
                             .font(.title)
                             .foregroundColor(.white)
                         
@@ -72,7 +72,7 @@ struct PlanetDetailView: View {
                 HStack(spacing: 10){
                     
                     VStack(alignment: .leading, spacing: 6){
-                        Text("Price")
+                        Text("설립일")
                             .fontWeight(.bold)
                             .foregroundColor(.white)
                         
@@ -129,7 +129,7 @@ struct PlanetDetailView: View {
                                 .fontWeight(.semibold)
                                 .foregroundColor(.black)
                             
-                            Text("12 cm")
+                            Text("1910 년")
                                 .fontWeight(.heavy)
                                 .foregroundColor(.black)
                             
@@ -144,49 +144,6 @@ struct PlanetDetailView: View {
                         .multilineTextAlignment(.leading)
                         .padding()
                     
-                    HStack(spacing: 20){
-                        
-                        Button(action: {
-                            
-                            if count > 0{count -= 1}
-                            
-                        }){
-                            
-                            Image(systemName: "minus")
-                                .font(.title2)
-                                .foregroundColor(.gray)
-                                .frame(width: 35, height: 35)
-                                .background(RoundedRectangle(cornerRadius: 10).stroke(Color.gray,lineWidth: 1))
-                            
-                        }
-                        
-                        Text("\(count)")
-                            .font(.title2)
-                        
-                        Button(action: {count += 1}) {
-                            
-                            Image(systemName: "plus")
-                                .font(.title2)
-                                .foregroundColor(.gray)
-                                .frame(width: 35, height: 35)
-                                .background(RoundedRectangle(cornerRadius: 10).stroke(Color.gray,lineWidth: 1))
-                            
-                        }
-                        
-                        Spacer()
-                        
-                        Button(action: {}) {
-                            
-                            Image(systemName: "suit.heart.fill")
-                                .font(.title2)
-                                .foregroundColor(.white)
-                                .padding(10)
-                                .background(Color.red)
-                                .clipShape(Circle())
-                        }
-                        
-                    }
-                    .padding(.horizontal)
                     
                     Spacer(minLength: 0)
                     

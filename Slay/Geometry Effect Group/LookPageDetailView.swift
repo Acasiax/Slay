@@ -195,7 +195,7 @@ struct LookPageDetailView: View {
                     }
                     
                 }
-                .navigationBarTitle("Aurora", displayMode: .inline)
+                .navigationBarTitle("SLAY", displayMode: .inline)
                 // 타이틀 추가
                 .navigationBarColor(backgroundColor: .clear, titleColor: .purple)
                 //

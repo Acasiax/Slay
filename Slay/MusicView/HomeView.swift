@@ -84,17 +84,17 @@ struct HomeView: View {
                                        Button(action: {
 //                                           // 버튼 클릭 시 실행할 액션을 여기에 추가
                                            show.toggle()
-                                           seledctedAlbum =  albums2[0]
+                                           seledctedAlbum =  albums6COLOR[0]
                                        }) {
                                            //이름
-                                           NewItems(album: albums2[1])
+                                           NewItems(album: albums6COLOR[1])
                                        }
                                        Button(action: {
                                            // 버튼 클릭 시 실행할 액션을 여기에 추가
                                            show.toggle()
-                                           seledctedAlbum =  albums2[1]
+                                           seledctedAlbum =  albums6COLOR[1]
                                        }) {
-                                           NewItems(album: albums2[0])
+                                           NewItems(album: albums6COLOR[0])
                                        }
                                       
                                    }
@@ -104,16 +104,16 @@ struct HomeView: View {
                                        Button(action: {
                                            // 버튼 클릭 시 실행할 액션을 여기에 추가
                                            show.toggle()
-                                           seledctedAlbum =  albums2[2]
+                                           seledctedAlbum =  albums6COLOR[2]
                                        }) {
-                                           NewItems(album: albums2[2])
+                                           NewItems(album: albums6COLOR[2])
                                        }
                                        Button(action: {
                                            // 버튼 클릭 시 실행할 액션을 여기에 추가
                                            show.toggle()
-                                           seledctedAlbum =  albums2[3]
+                                           seledctedAlbum =  albums6COLOR[3]
                                        }) {
-                                           NewItems(album: albums2[3])
+                                           NewItems(album: albums6COLOR[3])
                                        }
                                    }.frame(width: 190, height: 60, alignment: .center) // 이 부분을 추가하여 크기를 고정합니다.
                                    
@@ -122,18 +122,18 @@ struct HomeView: View {
                                        Button(action: {
                                            // 버튼 클릭 시 실행할 액션을 여기에 추가
                                            show.toggle()
-                                           seledctedAlbum =  albums2[4]
+                                           seledctedAlbum =  albums6COLOR[4]
 
                                        }) {
-                                           NewItems(album: albums2[4])
+                                           NewItems(album: albums6COLOR[4])
                                        }
                                        Button(action: {
                                            // 버튼 클릭 시 실행할 액션을 여기에 추가
                                            show.toggle()
-                                           seledctedAlbum =  albums2[5]
+                                           seledctedAlbum =  albums6COLOR[5]
 
                                        }) {
-                                           NewItems(album: albums2[5])
+                                           NewItems(album: albums6COLOR[5])
                                        }
                                    }
                                    .frame(width: 190, height: 60, alignment: .center) // 이 부분을 추가하여 크기를 고정합니다.
@@ -150,15 +150,7 @@ struct HomeView: View {
                             
                                     }
 
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
+            
                         
                         HStack{
                             Image(mainAlbums.artistImage)
@@ -244,51 +236,22 @@ struct HomeView: View {
                                 Button(action: {
                                     // 버튼 클릭 시 실행할 액션을 여기에 추가 //
                                     show.toggle()
-                                    seledctedAlbum =  albums3[0]
+                                    seledctedAlbum =  albumsChanel[0]
                                     
                                 }) {
-                                    PodList(podcasts: albums[2])
+                                    PodList(podcasts: albumsChanel[0])
                                 }
                                 
                                 Button(action: {
                                     show.toggle()
-                                    seledctedAlbum =  albums3[0]
+                                    seledctedAlbum =  albumsChanel[1]
                                     
                                     // 버튼 클릭 시 실행할 액션을 여기에 추가9999
                                 }) {
-                                    PodList(podcasts: albums[2])
+                                    PodList(podcasts: albumsChanel[1])
                                 }
-                                
-                                Button(action: {
-                                    // 버튼 클릭 시 실행할 액션을 여기에 추가99999
-                                    show.toggle()
-                                }) {
-                                    PodList(podcasts: albums[2])
-                                }
-                                
-                                Button(action: {
-                                    // 버튼 클릭 시 실행할 액션을 여기에 추가9999
-                                }) {
-                                    PodList(podcasts: albums[2])
-                                }
-                                
-                                Button(action: {
-                                    // 버튼 클릭 시 실행할 액션을 여기에 추가
-                                }) {
-                                    PodList(podcasts: albums[2])
-                                }
-                                
-                                Button(action: {
-                                    // 버튼 클릭 시 실행할 액션을 여기에 추가
-                                }) {
-                                    PodList(podcasts: albums[2])
-                                }
-                                
-                                Button(action: {
-                                    // 버튼 클릭 시 실행할 액션을 여기에 추가
-                                }) {
-                                    PodList(podcasts: albums[2])
-                                }
+                              
+                          
                             }
                             .padding(.leading)
                             .padding(.trailing)

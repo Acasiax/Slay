@@ -121,8 +121,8 @@ struct DetailView: View {
                                 Text("size")
                                     .fontWeight(.semibold)
                                     .foregroundColor(.black)
-                                
-                                Text("12 cm")
+          
+                                Text("1910 년")
                                     .fontWeight(.heavy)
                                     .foregroundColor(.black)
                                 
