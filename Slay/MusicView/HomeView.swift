@@ -252,6 +252,16 @@ struct HomeView: View {
                                 }
                               
                           
+                                Button(action: {
+                                    show.toggle()
+                                    seledctedAlbum =  albumsChanel[2]
+                                    
+                                    // 버튼 클릭 시 실행할 액션을 여기에 추가9999
+                                }) {
+                                    PodList(podcasts: albumsChanel[2])
+                                }
+                                
+                                
                             }
                             .padding(.leading)
                             .padding(.trailing)

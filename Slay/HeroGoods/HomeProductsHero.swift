@@ -130,6 +130,7 @@ struct HomeProductsHero: View {
                         }
                         .padding()
                         .padding(.top,10)
+                        .padding(.bottom,100)
                     }
                 })
             }
@@ -141,10 +142,12 @@ struct HomeProductsHero: View {
             }
 
         }
+      
         .background(Color.black.opacity(0.89))
         .ignoresSafeArea(.all, edges: .top)
         .ignoresSafeArea(.all, edges: .bottom)
         
+       
     }
 }
 

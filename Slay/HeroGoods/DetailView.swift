@@ -40,7 +40,7 @@ struct DetailView: View {
                                 .padding(.top)
                         }
                         
-                        Text("신짱아의 뉴컬렉션")
+                        Text("23/24 크루즈 컬렉션")
                             .fontWeight(.bold)
                             .foregroundColor(.white)
                         

@@ -48,7 +48,7 @@ var albums6COLOR: [Album] = [
 
     
     
-        Album( albumImage: "Chanel Slay Show", albumShowTitle: fashionShowListChannel[0].showTitle, artistImage: "버버리-리카르도티시", artistName: "마르켈리아", badge: true, year: "2020 ", date: " 0309", songs: 0, time: "12시20분 ", copyright: " 공공공", youtubeID: brands[0].fashionShows[0].youtubeID, youtubeURL: "https://www.youtube.com/live/rIUdA21wEPc?feature=share", showDetail: brands[0].fashionShows[0].showDetail),
+    Album( albumImage: "Chanel Slay Show", albumShowTitle: fashionShowListChannel[0].showTitle, artistImage: "버버리-리카르도티시", artistName: "마르켈리아", badge: true, year: "2020 ", date: " 0309", songs: 0, time: "12시20분 ", copyright: " 공공공", youtubeID: brands[0].fashionShows[0].youtubeID, youtubeURL: "https://www.youtube.com/live/rIUdA21wEPc?feature=share", showDetail: brands[0].fashionShows[0].showDetail),
     
 
     Album(albumImage: "YSL Slay Show", albumShowTitle: fashionShowListYSL[0].showTitle, artistImage: "버버리-리카르도티시", artistName: " 마르켈리아", badge: true, year: "2020 ", date: " 0310", songs: 1, time: "12시20분 ", copyright: " 공공공", youtubeID: "", youtubeURL: "https://www.youtube.com/live/I2uIi0GT8Qg?feature=share", showDetail: brands[2].fashionShows[0].showDetail),
@@ -65,8 +65,11 @@ var albums6COLOR: [Album] = [
 
 //샤넬 리스트
 var albumsChanel: [Album] = [
-    Album( albumImage: "Chanel Slay Show", albumShowTitle: fashionShowListChannel[0].showTitle, artistImage: "버버리-리카르도티시", artistName: "마르켈리아", badge: true, year: "2020 ", date: " 0309", songs: 0, time: "12시20분 ", copyright: " 공공공", youtubeID: brands[0].fashionShows[0].youtubeID, youtubeURL: "https://www.youtube.com/live/Wr4w5i1xFEo?feature=share", showDetail: brands[0].fashionShows[0].showDetail),
+    Album( albumImage: "Chanel Slay Show", albumShowTitle: fashionShowListChannel[0].showTitle, artistImage: "비르진이 비에르", artistName: "비르진이 비에르", badge: true, year: "2020 ", date: "2023/24", songs: 0, time: "12시20분 ", copyright: " 공공공", youtubeID: brands[0].fashionShows[0].youtubeID, youtubeURL: "https://www.youtube.com/live/Wr4w5i1xFEo?feature=share", showDetail: brands[0].fashionShows[0].showDetail),
 
-    Album( albumImage: "Chanel Slay Show", albumShowTitle: fashionShowListChannel[1].showTitle, artistImage: "버버리-리카르도티시", artistName: "마르켈리아", badge: true, year: "2020 ", date: " 0309", songs: 0, time: "12시20분 ", copyright: " 공공공", youtubeID: brands[0].fashionShows[0].youtubeID, youtubeURL: "https://www.youtube.com/live/JiZ_Y2huMYE?feature=share", showDetail: brands[0].fashionShows[0].showDetail),
+    Album( albumImage: "Chanel Slay Show", albumShowTitle: fashionShowListChannel[1].showTitle, artistImage: "비르진이 비에르", artistName: "마르켈리아", badge: true, year: "2020 ", date: "2023/24", songs: 0, time: "12시20분 ", copyright: " 공공공", youtubeID: brands[0].fashionShows[0].youtubeID, youtubeURL: "https://www.youtube.com/live/JiZ_Y2huMYE?feature=share", showDetail: brands[0].fashionShows[1].showDetail),
+    
+    Album( albumImage: "Chanel Slay Show", albumShowTitle: fashionShowListChannel[2].showTitle, artistImage: "비르진이 비에르", artistName: "마르켈리아", badge: true, year: "2020 ", date: "2023", songs: 0, time: "12시20분 ", copyright: " 공공공", youtubeID: brands[0].fashionShows[0].youtubeID, youtubeURL: "https://www.youtube.com/live/JiZ_Y2huMYE?feature=share", showDetail: brands[0].fashionShows[2].showDetail),
+    
     
 ]
