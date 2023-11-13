@@ -75,7 +75,7 @@ struct HomeView: View {
 //                        }
 //
                         HStack {
-                            
+                          
                                Spacer(minLength: 20)
                             
                                VStack {
@@ -139,12 +139,13 @@ struct HomeView: View {
                                    .frame(width: 190, height: 60, alignment: .center) // 이 부분을 추가하여 크기를 고정합니다.
 
                                }
+                            //.padding(.horizontal,50)
 //                               .frame(width: 190, height: 60, alignment: .center) // 이 부분을 추가하여 크기를 고정합니다.
-
+                             
                                Spacer(minLength: 20)
                                 
                            }
-                        
+                       
                         .fullScreenCover(isPresented: $show) {
                             YouTube222(selectedBrand: $selectedBrand, selectedYoutube: $selectedYoutube, seledctedAlbum: $seledctedAlbum)
                             

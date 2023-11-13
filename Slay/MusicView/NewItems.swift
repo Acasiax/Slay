@@ -40,7 +40,7 @@ struct NewItems: View {
                 }
             }
         }
-        .frame(width: 190, height: 60, alignment: .leading)
+        .frame(width: 175, height: 60, alignment: .leading)
         .cornerRadius(5)
     }
 }

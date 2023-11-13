@@ -68,8 +68,9 @@ struct PlanetHome: View {
                             }
                             
                         }
+                        .padding(.horizontal)
                         //오로라 로고 패딩
-                        .padding(.top,40)
+                        .padding(.top,50)
 
                         //.padding()
                         HStack(spacing: 15){
@@ -90,8 +91,11 @@ struct PlanetHome: View {
                             }
                             
                         }
+                       
                         //검색창패딩
                        // .padding()
+                        .padding(.horizontal)
+                        
                         ScrollView(.vertical, showsIndicators: false){
                             VStack(spacing: 15){
                                 //광고 공고창
@@ -110,6 +114,8 @@ struct PlanetHome: View {
                                         }.padding()
                                     }
                                 )
+                                //아이디어 제안 양옆 패딩
+                                .padding(.horizontal)
                                 
                                 //아티스트 카데고리
                               //  ArtistCircle(data: brands)
@@ -243,8 +249,8 @@ struct PlanetHome: View {
                         .padding(.bottom,50)
                         
                     }
-                    //????????
-                    .padding()
+                    //인스타그램 원형 주변 패딩
+                   // .padding()
                 })
                 
       //      }
@@ -261,14 +267,17 @@ struct PlanetHome: View {
                 let screenBounds = UIScreen.main.bounds
                 Person1(safeArea: EdgeInsets(), size: CGSize(width: screenBounds.width, height: screenBounds.height), instaShow: $instaShow, selectedBrand: $selectedBrand)
                    // .padding(.top,50)
+                 
             }
-
+                
         }
-        
+    
        .ignoresSafeArea(.all, edges: .top)
         //전체 배경색
        .background(Color.black.opacity(0.92))
+      
     }
+        
 }
 
 
