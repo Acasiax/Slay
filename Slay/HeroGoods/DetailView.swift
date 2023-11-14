@@ -69,7 +69,7 @@ struct DetailView: View {
                 HStack(spacing: 10){
                     
                     VStack(alignment: .leading, spacing: 6){
-                        Text("Price")
+                        Text("Color")
                             .fontWeight(.bold)
                             .foregroundColor(.white)
                         
@@ -132,51 +132,51 @@ struct DetailView: View {
                         .padding(.horizontal)
                         .padding(.top,isSmallDevice ? 0 : -20)
                         //
-                        Text("청방지축 얼렁뚱땅 말썽쟁이 짱구")
+                        Text(bagData.info)
                             .foregroundColor(.gray)
                             .multilineTextAlignment(.leading)
                             .padding()
                         
                         HStack(spacing: 20){
                             
-                            Button(action: {
-                                
-                                if count > 0{count -= 1}
-                                
-                            }){
-                                
-                                Image(systemName: "minus")
-                                    .font(.title2)
-                                    .foregroundColor(.gray)
-                                    .frame(width: 35, height: 35)
-                                    .background(RoundedRectangle(cornerRadius: 10).stroke(Color.gray,lineWidth: 1))
-                                
-                            }
-                            
-                            Text("\(count)")
-                                .font(.title2)
-                            
-                            Button(action: {count += 1}) {
-                                
-                                Image(systemName: "plus")
-                                    .font(.title2)
-                                    .foregroundColor(.gray)
-                                    .frame(width: 35, height: 35)
-                                    .background(RoundedRectangle(cornerRadius: 10).stroke(Color.gray,lineWidth: 1))
-                                
-                            }
-                            
-                            Spacer()
-                            
-                            Button(action: {}) {
-                                
-                                Image(systemName: "suit.heart.fill")
-                                    .font(.title2)
-                                    .foregroundColor(.white)
-                                    .padding(10)
-                                    .background(Color.red)
-                                    .clipShape(Circle())
-                            }
+//                            Button(action: {
+//                                
+//                                if count > 0{count -= 1}
+//                                
+//                            }){
+//                                
+//                                Image(systemName: "minus")
+//                                    .font(.title2)
+//                                    .foregroundColor(.gray)
+//                                    .frame(width: 35, height: 35)
+//                                    .background(RoundedRectangle(cornerRadius: 10).stroke(Color.gray,lineWidth: 1))
+//                                
+//                            }
+//                            
+//                            Text("\(count)")
+//                                .font(.title2)
+//                            
+//                            Button(action: {count += 1}) {
+//                                
+//                                Image(systemName: "plus")
+//                                    .font(.title2)
+//                                    .foregroundColor(.gray)
+//                                    .frame(width: 35, height: 35)
+//                                    .background(RoundedRectangle(cornerRadius: 10).stroke(Color.gray,lineWidth: 1))
+//                                
+//                            }
+//                            
+//                            Spacer()
+//                            
+//                            Button(action: {}) {
+//                                
+//                                Image(systemName: "suit.heart.fill")
+//                                    .font(.title2)
+//                                    .foregroundColor(.white)
+//                                    .padding(10)
+//                                    .background(Color.red)
+//                                    .clipShape(Circle())
+//                            }
                             
                             
                         }
@@ -184,25 +184,21 @@ struct DetailView: View {
                         .padding(.horizontal)
                         
                         Spacer(minLength: 0)
-                        
-                        Button(action: {}) {
-                            
-                            Text("자세히 보기")
-                                .font(.title2)
-                                .fontWeight(.bold)
-                                .foregroundColor(.white)
-                            
-                                .padding(.vertical)
-                                .frame(width: UIScreen.main.bounds.width - 30)
-                                .background(Color.purple)
-                            //  .clipShape(Circle())
-                        }
+                        Link(destination: URL(string: bagData.URL)!) {
+                                          Text("자세히 보기")
+                                              .font(.title2)
+                                              .fontWeight(.bold)
+                                              .foregroundColor(.white)
+                                              .padding(.vertical)
+                                              .frame(width: UIScreen.main.bounds.width - 30)
+                                              .background(Color.purple)
+                                      }
+
                         .padding(.top)
                         .padding(.bottom,UIApplication.shared.windows.first?.safeAreaInsets.bottom == 0 ? 15 : 0)
-                        .padding(.bottom,30)
-                        
-                        
-                        
+                
+                        .padding(.bottom,90)//원래는 30
+           
                     }
                     
                 }

@@ -145,8 +145,8 @@ struct PlanetHome: View {
                                                                     Circle()
                                                                         .trim(from: 0, to: 1)
                                                                     //점선 360 돌아갈때
-                                                                        .stroke(AngularGradient(gradient: .init(colors: [.pink,.purple,.pink]), center: .center), style: StrokeStyle(lineWidth: 3.4, dash:
-                                                                                                                                                                                        [self.data[i].loading ? 0.4 : 0]))
+                                                                        .stroke(AngularGradient(gradient: .init(colors: [.pink,.purple,.yellow.opacity(0.3),.orange,.pink,.purple,.pink]), center: .center), style: StrokeStyle(lineWidth: 3.4, dash:
+                                                                                                                                                                                        [self.data[i].loading ? 0.6 : 0]))
                                                                         .frame(width: 74, height: 74)
                                                                         .rotationEffect(.init(degrees: self.data[i].loading ? 360 : 0))
                                                                     
